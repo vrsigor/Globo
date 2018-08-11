@@ -1,0 +1,11 @@
+@newsletter
+Funcionalidade: cadastrar e-mail do usuário para que receba a newsletter da editora.
+
+Contexto: possibilidade de acessar o site
+Dado que usuário tenha um e-mail
+
+Esquema do Cenário: acessar o site para cadastro da newsletter
+Quando informar os assuntos de interesse no menu
+E inserir o e-mail juntamente com o captcha correto
+Então o sistema deve exibir uma mensagem após clicar em "inscreva-se" que o e-mail foi cadastrado na newsletter.
+E a mensagem deve conter botão de interação para o usuário clicar em "OK"

@@ -1,0 +1,9 @@
+@validar temas
+Funcionalidade: validar temas disponiveis no menu.
+
+Contexto: possibilidade de acessar o site.
+
+Esquema do Cenário: validar os temas do menu da newsletter.
+Quando o site exibir as opções.
+E devera exibir todos os temas esperados.
+Então após a validação dos temas o navegador deve ser fechado.
